@@ -1,0 +1,103 @@
+
+/* 섹션 타이틀 스타일 */
+.order-section-title {
+    font-size: 1rem; /* 20px */
+    font-weight: 700;
+    padding: 20px;
+    color: #333;
+    background-color: #F5F5F5;
+}
+
+/* 배송지 기본 정보 태그 */
+.delivery-tag {
+    color: #888;
+    font-weight: 500;
+}
+
+/* 배송지 변경 버튼 */
+.delivery-change-btn {
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #555;
+    font-size: 0.875rem; /* 14px */
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    line-height: 1.5;
+}
+.delivery-change-btn:hover {
+    background-color: #f8f8f8;
+    border-color: #aaa;
+}
+
+/* 주문 상품 목록 이미지 크기 및 스타일 */
+.item-image {
+    max-width: 100%;
+    width: 100px; /* 고정 너비 설정 */
+    height: 100px; /* 고정 높이 설정 */
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* 상품 가격 취소선 스타일 */
+.original-price-strikethrough {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+}
+
+/* 할인 적용 가격 스타일 */
+.discounted-price-final {
+    font-size: 1.25rem; /* 20px */
+    font-weight: 800;
+    color: #333;
+}
+
+/* 쿠폰 사용 버튼 */
+.coupon-apply-btn {
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #555;
+    font-size: 0.875rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+}
+
+/* 결제 정보 카드 (우측) 고정 스타일 */
+.sticky-card {
+    position: sticky;
+    top: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+    border-radius: 0.5rem;
+}
+
+/* 결제 정보 상세 행 */
+.payment-detail-row {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* 총 결제 금액 */
+.total-amount-row {
+    font-size: 1.125rem;
+}
+.total-price {
+    color: #1850DB; /* 파란색 적용 */
+    font-weight: 800;
+}
+
+/* 결제 버튼 스타일 */
+.order-pay-btn {
+    background-color: #1850DB !important; /* 파란색 적용 */
+    border-color: #1850DB !important;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.3rem !important;
+}
+
+.order-pay-btn:hover {
+    background-color: #133eaf !important;
+    border-color: #133eaf !important;
+}

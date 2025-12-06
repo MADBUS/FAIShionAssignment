@@ -1,0 +1,72 @@
+/* MyPage.css */
+
+/* --- 공통 스타일 (부트스트랩 보조) --- */
+
+/* 커스텀 포인터 스타일 */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* --- 주문 내역 스크롤바 영역 스타일 --- */
+
+/* 주문 내역 영역의 높이를 제한하고 스크롤바 스타일링 (이미지와 유사하게) */
+.order-list-scroll {
+    max-height: 560px;
+    overflow-y: auto;
+
+    /* 웹킷 기반 브라우저 (Chrome, Safari) 스크롤바 스타일 */
+    &::-webkit-scrollbar {
+        width: 8px; /* 스크롤바 폭 */
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #ccc; /* 스크롤바 핸들 색상 */
+        border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #f0f0f0; /* 스크롤바 트랙 색상 */
+    }
+}
+
+
+/* --- 프로필 영역: 강조 텍스트 색상 커스텀 --- */
+.text-primary-custom {
+    color: #4a90e2 !important; /* 이미지의 파란색 강조색 */
+}
+
+/* --- 상태 섹션: 경계선 간격 조정 --- */
+/* 부트스트랩 border-end 클래스로 구현했지만, 만약 미세 조정이 필요하면 사용 */
+.status-box-divider {
+    border-right: 1px solid #eee;
+}
+
+/* --- 아이콘 버튼 간격/크기 조정 --- */
+.icon-btn-custom {
+    /* 부트스트랩 Button variant="link"의 기본 padding을 재정의 */
+    padding: 0.25rem;
+}
+
+.profile-image-wrapper {
+    position: relative; /* 자식 요소인 버튼의 absolute 기준점 */
+    display: inline-block; /* 버튼이 생겨도 컨테이너 크기가 사진 크기로 유지되도록 */
+}
+
+/* 2. 삭제 버튼에 absolute를 적용하여 이미지 위에 겹쳐지게 설정 */
+.image-delete-btn {
+    position: absolute;
+    top: 0; /* 사진의 상단에 위치 */
+    right: 0; /* 사진의 오른쪽에 위치 */
+    z-index: 10; /* 사진보다 위에 표시되도록 설정 */
+
+    /* 디자인 조정 */
+    padding: 0;
+    line-height: 1;
+    border: none;
+}
+
+.MypageOrderDate{
+    padding-top: 100px;
+    padding-left: 100px;
+    margin-right: 20px;
+}
