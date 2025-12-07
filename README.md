@@ -1,5 +1,5 @@
 # 👗 fAIshion – AI 기반 체형 맞춤 가상 피팅 & 쇼핑 플랫폼
-
+시연영상: https://www.youtube.com/watch?v=NXYyL7PMWfc
 > “입어보는 듯한 쇼핑 경험을 온라인에서”  
 AI 스타일링, 가상 피팅, 결제 시스템, 재고·배송 관리까지 통합한 풀스택 패션 커머스 플랫폼
 
